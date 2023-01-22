@@ -42,6 +42,7 @@ module.exports = () => {
             destination: path.join("assets", "icons"),
           },
         ],
+        fingerprints: false,
 
       })
     ],
@@ -62,9 +63,9 @@ module.exports = () => {
                 ["@babel/preset-env", {targets: "defaults"}]
               ],
               plugins: ["@babel/plugin-proposal-class-properties", "@babel/transform-runtime"],
-            }
-          }
-        }
+            },
+          },
+        },
       ],
     },
   };
