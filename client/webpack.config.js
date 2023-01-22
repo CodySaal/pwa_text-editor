@@ -20,7 +20,7 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: "./index.html",
-        title: "JATE"
+        title: "Just Another Text Editor"
       }),
       new InjectManifest({
         swSrc: "./src-sw.js",
@@ -60,9 +60,9 @@ module.exports = () => {
             loader: "babel-loader",
             options: {
               presets: [
-                ["@babel/preset-env", {targets: "defaults"}]
+                ["@babel/preset-env"],
               ],
-              plugins: ["@babel/plugin-proposal-class-properties", "@babel/transform-runtime"],
+              plugins: ["@babel/plugin-proposal-object-rest-spread", "@babel/transform-runtime"],
             },
           },
         },
