@@ -29,13 +29,13 @@ npm run start:dev
 
 ## Usage
 
-The applications usage is fairly typical to other text editors. This one, being a PWA, can be installed on the users device and runs similar to a native app. This will also allow the user to use J.A.T.E while being offline.
+The applications usage is fairly typical to other text editors. This one, being a PWA, can be installed on the users device and runs similar to a native app. This will also allow the user to use J.A.T.E while being offline. All text is saved once the user clicks off of the editor.
 
 
-![Screenshot](assets/tech_blog_screenshot.png)
+![Screenshot](assets/jatescreenshot.png)
 
 
-[Tech Blog](https://lit-savannah-08132.herokuapp.com/ "Deployed Tech Blog Site")
+[J.A.T.E](https://dry-island-47595.herokuapp.com/ "Deployed Text Editor")
 
 ## Credits
 
